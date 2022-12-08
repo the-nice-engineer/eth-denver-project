@@ -8,7 +8,7 @@ import "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable/token/ERC721/ERC721Upgradeable.sol";
 
 
-contract Wizard is Initializable, UUPSUpgradeable, OwnableUpgradeable{
+contract Wizard is Initializable, UUPSUpgradeable, OwnableUpgradeable, ERC721Upgradeable{
 
 
     function initialize() public initializer{
